@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 	// Credentials
-	var baseUrl = "http://127.0.0.1:5000/chat-bot?"
+	var baseUrl = "http://localhost:37000/chat-bot?"
 
 	//---------------------------------- Add dynamic html bot content(Widget style) ----------------------------
 	// You can also add the html content in html page and still it will work!
@@ -26,7 +26,7 @@ $(document).ready(function() {
 							'<div class="profile_div">'+
 								'<div class="row">'+
 									'<div class="col-hgt" >'+
-										'<img src="static/chat-bot/assets/img/bot2.svg" class="img-circle img-profile">'+
+										'<img src="{{ url_for("static", filename="chat-bot/assets/img/bot2.svg") }}" class="img-circle img-profile">'+
 									'</div><!--col-hgt end-->'+
 									'<div class="col-hgt" >'+
 										'<div class="chat-txt" style="background-color:white" >'+

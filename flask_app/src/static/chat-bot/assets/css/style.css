@@ -201,7 +201,7 @@ mybot .resultDiv .botResult:before {
 }
 
 mybot .resultDiv .userEnteredText {
-  background: #9C27B0;
+  background: #4e73df;
   float: right;
   color: #ffffff;
   border-radius: 3px;
@@ -225,7 +225,7 @@ mybot .resultDiv .userEnteredText:before {
   height: 0;
   border-top: 0px solid rgba(0, 0, 0, 0);
   border-bottom: 15px solid rgba(0, 0, 0, 0);
-  border-left: 15px solid #9C27B0;
+  border-left: 15px solid #4e73df;
   position: absolute;
   right: -15px;
   margin-top: -12px;
@@ -262,7 +262,7 @@ mybot .chat-txt {
 
 /* Spinner start */
 mybot .spinner {
-  background: #9C27B0;
+  background: #4e73df;
   width: 70px;
   text-align: center;
   display: none;
@@ -281,7 +281,7 @@ mybot .spinner:before {
   height: 0;
   border-top: 0px solid rgba(0, 0, 0, 0);
   border-bottom: 15px solid rgba(0, 0, 0, 0);
-  border-right: 15px solid #9C27B0;
+  border-right: 15px solid #4e73df;
   left: -15px;
   margin-top: -7px;
 }
@@ -356,7 +356,7 @@ mybot .suggestion:before {
 
 mybot .suggestion .sugg-options {
   display: block;
-  background: #9c27b0;
+  background: #4e73df;
   color: #fff;
   text-align: center;
   padding: 5px;
