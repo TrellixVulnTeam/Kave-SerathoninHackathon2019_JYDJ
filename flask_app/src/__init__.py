@@ -73,8 +73,8 @@ def predicting(x):
     return result
 
 def tweetSearch(query, limit = 1000, language = "en", remove = []):
-    auth = tweepy.OAuthHandler("b31NqruIj0m3D6mzOk4glEfz7", "yAku57PMlQ9V6MVxUrrzkGxI4izrwGCzvI8Q5OwPwyFeLCR0oT")
-    auth.set_access_token("352938901-hH3mCRnw7ir8acB7oFQwfsu9gaboZeu20Hbm2jWi", "t2vYixvZemUibVI95QuapcqwEUCITki7xWFK6DjLTvGce")
+    auth = tweepy.OAuthHandler("", "")
+    auth.set_access_token("", "")
     api = tweepy.API(auth)
         #Create a blank variable
     texts = []
